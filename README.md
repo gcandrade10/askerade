@@ -1,17 +1,14 @@
-# Barter-it!
+# Askerade
 
 ## Description
 
-Barter-it! is a wep application that looks to help people and auto-suficient 
-communities to trade products without the need of money.
-We know that money is present in everyday life and that there is a 
-reason for it to exist, so we didn't erase it completely of the equation, we
-just made it another secondary product more.
+Askerade is a wep application that looks to help people with ther needs of
+making questions to a focus group and taking the answers with statistics.
 
 This web application is developed in MeteorJS, with React for the front-end.
 
 ## Demo
-https://barter-it.herokuapp.com
+https://askerade.herokuapp.com/
 
 ## Install
 
@@ -28,6 +25,14 @@ To install this repository on your local machine you should have:
 ### Procedure
 Follow these steps:
 
+0. Setup  your credentials on the server using environment variables:
+```
+export TWITTER_CONSUMER_KEY="yourCredentialsHere"
+export TWITTER_CONSUMER_SECRET="yourCredentialsHere"
+export TWITTER_ACCESS_TOKEN_KEY="yourCredentialsHere"
+export TWITTER_ACCESS_TOKEN_SECRET="yourCredentialsHere"
+```
+
 1. Download the source code to your computer
 2. Unzip it if you download it and didn't clone it
 3. Open your folder and go inside
@@ -43,13 +48,6 @@ Follow these steps:
 7. Go to your preferred browser and type "localhost:3000"
 8. Voilà!!!!!
 
-### Tests
-You can run the tests this way:
-
-	
-	meteor test --driver-package=cultofcoders:mocha --port 3100
-	
-
 Then go to your preferred browser and type "localhost:3100"
 ## Authors
 * [__Germán Andrade__](https://github.com/gcandrade10)
@@ -62,10 +60,6 @@ If anyone wants to give me any help or ideas, you can by making new [Issues](htt
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository has the standard MIT license. You can find it [here.](https://github.com/gcandrade10/barter-it/blob/master/LICENSE)
+This repository has the standard MIT license. You can find it [here.](https://github.com/sapardo10/askerade/blob/master/LICENSE)
 
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
-
-
-Wunderschön oder? 
-Eeny, meeny, miny, moe. With which Product should I go?

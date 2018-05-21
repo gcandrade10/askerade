@@ -4,6 +4,7 @@ import { Inject } from "meteor/meteorhacks:inject-initial"
 import '../imports/api/trades.js';
 import '../imports/api/products.js';
 import '../imports/api/surveys.js';
+import "../imports/api/tweetsanswer.js";
 import { Accounts } from 'meteor/accounts-base';
 import { DDPRateLimiter } from 'meteor/ddp-rate-limiter';
 
